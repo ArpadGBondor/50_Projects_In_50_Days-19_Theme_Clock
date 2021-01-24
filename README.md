@@ -3,7 +3,7 @@
 ## Udemy - 50 Projects In 50 Days - HTML, CSS & JavaScript
 ### Section 20: Day 19 - Theme Clock
 
-My solution automatically loads the previously loaded theme. If there's no previous setting then it sets dark theme based on the browser's preferences.
+The solution automatically loads the previously chosen theme. If there's no previous setting saved then it sets dark theme based on the browser's preferences.
 
 The minute and hour arms are slowly moving every second.
 
