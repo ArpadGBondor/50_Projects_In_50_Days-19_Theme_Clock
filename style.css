@@ -133,6 +133,7 @@ body {
 }
 
 .needle.hour {
+  width: 5px;
   transform: translate(-50%, -100%) rotate(0deg);
 }
 
