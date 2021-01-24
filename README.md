@@ -3,7 +3,8 @@
 ## Udemy - 50 Projects In 50 Days - HTML, CSS & JavaScript
 ### Section 20: Day 19 - Theme Clock
 
-My solution automatically set's dark theme based on the browser's preferences, and the arms of the clock only spin once in 12 hours, when the time changes from '11:59:59' to '00:00:00'.
+My solution automatically loads the previously loaded theme. If there's no previous setting then it sets dark theme based on the browser's preferences.
 
-Update:
-I added clock face marks.
+The transition that animates the movement of the arms is turned off for 1 second every timewhen the time changes from '11:59:59' to '00:00:00'. The arms of the clock are not spinning anymore.
+
+I also added clock face.
