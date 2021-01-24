@@ -7,6 +7,16 @@
 :root {
   --primary-color: #000;
   --secondary-color: #fff;
+
+  --sin-0: 0;
+  --sin-30: 0.5;
+  --sin-60: 0.86602540378;
+  --sin-90: 1;
+
+  --cos-0: 1;
+  --cos-30: 0.86602540378;
+  --cos-60: 0.5;
+  --cos-90: 0;
 }
 
 html {
@@ -55,8 +65,55 @@ body {
 
 .clock {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 240px;
+  height: 240px;
+}
+
+.hour-mark {
+  background-color: var(--primary-color);
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+}
+
+.mark1 {
+  transform: translate(calc(-50% + 110px * var(--cos-60)), calc(-50% - 110px * var(--sin-60)));
+}
+.mark2 {
+  transform: translate(calc(-50% + 110px * var(--cos-30)), calc(-50% - 110px * var(--sin-30)));
+}
+.mark3 {
+  transform: translate(calc(-50% + 110px * var(--cos-0)), calc(-50% - 110px * var(--sin-0)));
+}
+.mark4 {
+  transform: translate(calc(-50% + 110px * var(--cos-30)), calc(-50% + 110px * var(--sin-30)));
+}
+.mark5 {
+  transform: translate(calc(-50% + 110px * var(--cos-60)), calc(-50% + 110px * var(--sin-60)));
+}
+.mark6 {
+  transform: translate(calc(-50% + 110px * var(--cos-90)), calc(-50% + 110px * var(--sin-90)));
+}
+.mark7 {
+  transform: translate(calc(-50% - 110px * var(--cos-60)), calc(-50% + 110px * var(--sin-60)));
+}
+.mark8 {
+  transform: translate(calc(-50% - 110px * var(--cos-30)), calc(-50% + 110px * var(--sin-30)));
+}
+.mark9 {
+  transform: translate(calc(-50% - 110px * var(--cos-0)), calc(-50% + 110px * var(--sin-0)));
+}
+.mark10 {
+  transform: translate(calc(-50% - 110px * var(--cos-30)), calc(-50% - 110px * var(--sin-30)));
+}
+.mark11 {
+  transform: translate(calc(-50% - 110px * var(--cos-60)), calc(-50% - 110px * var(--sin-60)));
+}
+.mark12 {
+  transform: translate(calc(-50% - 110px * var(--cos-90)), calc(-50% - 110px * var(--sin-90)));
 }
 
 .needle {
