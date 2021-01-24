@@ -5,8 +5,8 @@
 
 The solution automatically loads the previously chosen theme. If there's no previous setting saved then it sets dark theme based on the browser's preferences.
 
-The minute and hour arms are slowly moving every second.
+The minute and hour hands are slowly moving every second.
 
-The transition that animates the movement of the arms is turned off for 1 second every time when the time changes from '11:59:59' to '00:00:00'. The arms of the clock are not spinning anymore.
+The transition that animates the movement of the hands is turned off for 1 second every time when the time changes from '11:59:59' to '00:00:00'. The hands of the clock are not spinning anymore.
 
 I also added clock face.
