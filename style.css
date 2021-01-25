@@ -29,7 +29,7 @@ html.dark {
 }
 
 html.dark {
-  background-color: #111;
+  background-color: #171717;
   color: var(--primary-color);
 }
 body {
@@ -64,9 +64,13 @@ body {
 }
 
 .clock {
+  border-radius: 50%;
   position: relative;
-  width: 280px;
-  height: 280px;
+  width: 240px;
+  height: 240px;
+  margin: 1.5rem;
+  background: radial-gradient(circle at center, transparent, rgba(127, 127, 127, 0.01), rgba(127, 127, 127, 0.1));
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .hour-mark {
@@ -172,7 +176,7 @@ body {
 }
 
 .time {
-  font-size: 16px;
+  font-size: 2rem;
 }
 
 .date {
