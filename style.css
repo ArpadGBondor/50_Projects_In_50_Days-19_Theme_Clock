@@ -143,12 +143,12 @@ body {
 
 .needle.minute {
   height: 100px;
-  transform: translate(-50%, -100%) rotate(150deg);
+  transform: translate(-50%, -100%) rotate(0deg);
 }
 
 .needle.second {
   height: 100px;
-  transform: translate(-50%, -100%) rotate(50deg);
+  transform: translate(-50%, -100%) rotate(0deg);
   background-color: #e74c3c;
 }
 
