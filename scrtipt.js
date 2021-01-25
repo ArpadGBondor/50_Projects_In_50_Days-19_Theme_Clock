@@ -55,11 +55,11 @@ toggle.addEventListener('click', () => {
 });
 
 function setToggleButtonText() {
-  if (document.documentElement.classList.contains('dark')) {
-    toggle.innerText = 'Light mode';
-  } else {
-    toggle.innerText = 'Dark mode';
-  }
+  // if (document.documentElement.classList.contains('dark')) {
+  //   toggle.innerText = 'Light mode';
+  // } else {
+  //   toggle.innerText = 'Dark mode';
+  // }
 }
 
 // Clock
